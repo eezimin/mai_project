@@ -22,6 +22,7 @@
 1. Импортируйте необходимые функции:
 ```python
 from ab_test_duration_calculator import MDE_relative_cuped_calc, ML_modification
+```
 
 2. Подготовьте данные и определите параметры эксперимента:
 
@@ -30,6 +31,7 @@ data = ...  # Ваш DataFrame с данными
 metric_range = ['metric1', 'metric2']  # Список метрик для анализа
 start_date = '2023-01-01'  # Дата начала эксперимента
 duration_range = [7, 14, 21, 28]  # Список длительностей эксперимента
+```
 
 3. Вызовите функцию MDE_relative_cuped_calc для расчета MDE:
 
@@ -39,11 +41,13 @@ mde_results = MDE_relative_cuped_calc(data=data,
                                       start_date=start_date,
                                       duration_range=duration_range,
                                       ML_flg=True)
+```
 
 4. Визуализируйте результаты:
 
 ```python
 mde_plot(mde_results)
+```
 
 ## Вклад
 Если вы хотите внести свой вклад в проект, пожалуйста, следуйте этим шагам:
