@@ -196,7 +196,7 @@ def mde_plot(data: pd.DataFrame) -> None:
         # Добавляем подписи к графику
         plt.xlabel('Длительность эксперимента, в днях')
         plt.ylabel('MDE, %')
-        plt.title(f'Зависимость MDE от длительность эксперимента для метрики "{metric}"')
+        plt.title(f'Зависимость MDE от длительности эксперимента для метрики "{metric}"')
         plt.grid(True)
             
         plt.show()
